@@ -1,4 +1,5 @@
 import React from 'react';
+import TrangChu from './components/TrangChu';
 import NotFound from './components/NotFound';
 import DangNhap from './components/DangNhap';
 import DangKy from './components/DangKy';
@@ -9,7 +10,6 @@ import Them from './components/Them';
 import DanhSachGiaoVien from './components/DanhSachGiaoVien';
 import SuaDoAn from './components/SuaDoAn';
 import Order from './components/Order';
-import TrangChu from './components/TrangChu';
 import LuaChon from './components/LuaChon';
 import TaoThongBao from './components/TaoThongBao';
 import QLND from './components/QLND';
@@ -19,7 +19,7 @@ import GVHD from './components/GVHD';
 
 const routes = [
     {
-        path : '/',
+        path : '/TrangChu',
         exact : true,
         main : ({history}) => <TrangChu history={history}/>
     },
